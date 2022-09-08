@@ -1,0 +1,33 @@
+rosinit('192.168.192.128')
+node1=ros.Node('/nodo1');
+%%
+msg1=rosmessage('geometry_msgs/Twist');
+msg1.Linear.X=2;
+msg1.Angular.Z=-1.8;
+msg1.Linear.Y=1;
+%%
+msg2=rosmessage('geometry_msgs/Twist');
+msg2.Linear.X=-1.5;
+msg2.Angular.Z=1.8;
+%%
+msg3=rosmessage('geometry_msgs/Twist');
+msg3.Linear.X=-3;
+msg3.Angular.Z=-1.8;
+%%
+ve1=ros.Publisher(node1,'/Axel/cmd_vel','geometry_msgs/Twist');
+ve2=ros.Publisher(node1,'/Dennis/cmd_vel','geometry_msgs/Twist');
+ve3=ros.Publisher(node1,'/Aldo/cmd_vel','geometry_msgs/Twist');
+ve4=ros.Publisher(node1,'/Fredy/cmd_vel','geometry_msgs/Twist');
+ve5=ros.Publisher(node1,'/Kathia/cmd_vel','geometry_msgs/Twist');
+ve6=ros.Publisher(node1,'/Eduardo/cmd_vel','geometry_msgs/Twist');
+%%
+for i=1:30
+  send(ve1,msg1)
+  send(ve2,msg2)
+  send(ve3,msg3)
+  send(ve4,msg1)
+  send(ve5,msg2)
+  send(ve6,msg3)
+  pause(1)
+end
+

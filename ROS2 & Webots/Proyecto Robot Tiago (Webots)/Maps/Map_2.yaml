@@ -1,0 +1,7 @@
+image: /home/vicente/Pictures/maplab01.pgm
+mode: trinary
+resolution: 0.05
+origin: [-15.6, -2.55, 0]
+negate: 0
+occupied_thresh: 0.65
+free_thresh: 0.25

@@ -1,0 +1,1015 @@
+#VRML_SIM R2021a utf8
+WorldInfo {
+  coordinateSystem "NUE"
+}
+Viewpoint {
+  orientation -0.4352802217820413 0.804112800196812 0.40488730911825166 1.8126653747185648
+  position 11.100391999954025 20.743849495944175 -0.863114036761865
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  floorSize 6.65 14.5
+  floorAppearance Parquetry {
+    type "chequered"
+    colorOverride 0 0 0
+  }
+  wallThickness 0.03
+  wallHeight 1e-06
+  wallAppearance BrushedAluminium {
+    colorOverride 0 0 0
+  }
+}
+Wall {
+  translation -2.025 0 5.25
+  name "wall(5)"
+  size 2.6 1.05 0.1
+}
+Wall {
+  translation -2.025 2.1 5.25
+  name "wall(40)"
+  size 2.6 0.35 0.1
+}
+Wall {
+  translation -2.025 0 0.25
+  name "wall(10)"
+  size 2.6 2.45 0.1
+}
+Wall {
+  translation -2.025 0 -2.25
+  name "wall(12)"
+  size 2.6 1.05 0.1
+}
+Wall {
+  translation -2.025 2.1 -2.25
+  name "wall(32)"
+  size 2.6 0.35 0.1
+}
+Wall {
+  translation 2.025 2.1 -2.25
+  name "wall(6)"
+  size 2.6 0.35 0.1
+}
+Wall {
+  translation 2.025 0 2.75
+  name "wall(7)"
+  size 2.6 1.05 0.1
+}
+Wall {
+  translation 2.025 2.1 2.75
+  name "wall(35)"
+  size 2.6 0.35 0.1
+}
+Wall {
+  translation 2.025 0 0.25
+  name "wall(8)"
+  size 2.6 1.05 0.1
+}
+Wall {
+  translation 2.025 2.1 0.25
+  name "wall(37)"
+  size 2.6 0.35 0.1
+}
+Wall {
+  translation 0 0 -7.25
+  size 6.6 2.5 0.2
+  appearance Roughcast {
+    colorOverride 0.3 0.3 0.3
+    textureTransform TextureTransform {
+      scale 1 2.4
+    }
+  }
+}
+Wall {
+  translation 1.025 0 7.25
+  name "wall(1)"
+  size 4.6 2.45 0.1
+  appearance Roughcast {
+    colorOverride 0.3 0.3 0.3
+    textureTransform TextureTransform {
+      scale 1 2.4
+    }
+  }
+}
+SolidBox {
+  translation -0.68 1.58 7.3
+  rotation 0 0 1 2.64402e-06
+  name "Cartel1"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/lab control.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation -3.22517 1.58 6.26104
+  rotation -1.32201e-06 1 1.32201e-06 1.5708
+  name "Cartel1(1)"
+  size 1 1 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/Nombres.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation -2.93 1.56 5.26
+  rotation 0 0 1 2.64402e-06
+  name "Cartel2"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/estacion terrena.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    roughness 1
+    metalness 0
+  }
+}
+Wall {
+  translation -3.325 0 0
+  name "wall(2)"
+  size 0.2 2.5 14.5
+  appearance Roughcast {
+    colorOverride 0.3 0.3 0.3
+    textureTransform TextureTransform {
+      scale 1 2.4
+    }
+  }
+}
+Wall {
+  translation 3.325 0 0
+  name "wall(3)"
+  size 0.2 2.5 14.5
+  appearance Roughcast {
+    colorOverride 0.3 0.3 0.3
+    textureTransform TextureTransform {
+      scale 1 2.4
+    }
+  }
+}
+Wall {
+  translation 0.725 0 1.125
+  name "wall(4)"
+  size 0.1 1.05 1.75
+}
+Wall {
+  translation 0.725 2.1 1.125
+  name "wall(33)"
+  size 0.1 0.35 1.75
+}
+Wall {
+  translation 0.725 2.1 -0.625
+  name "wall(13)"
+  size 0.1 0.35 1.75
+}
+Wall {
+  translation 0.725 0 -0.625
+  name "wall(34)"
+  size 0.1 1 1.75
+}
+Wall {
+  translation -0.725 0 -1.375
+  name "wall(14)"
+  size 0.1 1.05 1.75
+}
+Wall {
+  translation -0.725 2.1 -1.375
+  name "wall(31)"
+  size 0.1 0.35 1.75
+}
+Wall {
+  translation -0.725 0 3.625
+  name "wall(27)"
+  size 0.1 1.05 1.75
+}
+Wall {
+  translation -0.725 2.1 3.625
+  name "wall(39)"
+  size 0.1 0.35 1.75
+}
+Wall {
+  translation -0.725 0 1.13
+  name "wall(28)"
+  size 0.1 1.05 1.75
+}
+Wall {
+  translation -0.725 2.1 1.13
+  name "wall(38)"
+  size 0.1 0.35 1.75
+}
+Wall {
+  translation 0.725 0 6.075
+  name "wall(9)"
+  size 0.1 2.45 2.35
+}
+SolidBox {
+  translation 0.67 1.58 5.39
+  rotation -1.32201e-06 1 -1.32201e-06 -1.5707953071795862
+  name "Cartel3"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/robotica servico.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation 3.22 1.58 3.44
+  rotation -1.32201e-06 1 -1.32201e-06 -1.5707953071795862
+  name "Cartel3(1)"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/3D.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.73 1.58 1.55
+  rotation -1.32201e-06 1 -1.32201e-06 -1.5707953071795862
+  name "Cartel3(2)"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/Diseno elect meca.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.73 1.58 -0.23
+  rotation -1.32201e-06 1 -1.32201e-06 -1.5707953071795862
+  name "Cartel3(3)"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/meva.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation -0.75 1.58 -0.95
+  rotation -1.32201e-06 1 -1.32201e-06 -1.5707953071795862
+  name "Cartel3(4)"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/bionica.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation 0.11 1.58 -7.15
+  rotation 2.23824998553531e-09 0.3583299976842924 0.9335949939666424 1.01503e-06
+  name "Cartel3(5)"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/proyectos.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation 1.72 1.58 -7.15
+  rotation 2.23824998553531e-09 0.3583299976842924 0.9335949939666424 1.01503e-06
+  name "Cartel3(7)"
+  size 0.5 0.5 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/Electronica_Potencia/webots.png"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+SolidBox {
+  translation -1.78 1.58 -7.15
+  rotation 2.23824998553531e-09 0.3583299976842924 0.9335949939666424 1.01503e-06
+  name "Cartel3(8)"
+  size 0.7 0.7 0.01
+  appearance PBRAppearance {
+    baseColorMap ImageTexture {
+      url [
+        "C:/Users/axel2/Downloads/Electronica_Potencia/ros2.jpg"
+      ]
+      repeatS FALSE
+      repeatT FALSE
+      filtering 0
+    }
+    metalness 0
+  }
+}
+Wall {
+  translation 2.025 0 4.15
+  name "wall(11)"
+  size 2.6 1.05 0.1
+}
+Wall {
+  translation 2.025 2.1 4.15
+  name "wall(36)"
+  size 2.6 0.35 0.1
+}
+Wall {
+  translation 0.725 0 4.95
+  name "wall(15)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation 0.725 0 4.15
+  name "wall(16)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation 0.725 0 2.75
+  name "wall(17)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation 0.725 0 0.25
+  name "wall(18)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation 0.725 0 -2.26
+  name "wall(19)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation 0.729676 8.88178e-15 -1.45371
+  name "wall(30)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation -0.725 0 -2.26
+  name "wall(20)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation -0.717705 0 4.46025
+  name "wall(21)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation -0.736685 0 5.24389
+  name "wall(26)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation -0.732324 0 2.76179
+  name "wall(25)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation 0.725 0 1.95
+  name "wall(22)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation -0.725 0 0.24
+  name "wall(23)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation -0.732644 8.88178e-15 -0.550643
+  name "wall(29)"
+  size 0.1 2.45 0.1
+}
+Wall {
+  translation -0.728898 0 1.93732
+  name "wall(24)"
+  size 0.1 2.45 0.1
+}
+Cabinet {
+  translation 0.7 0 6.8
+  rotation 0 1 0 -1.5707950010791611
+  rowsHeights [
+    0.24, 0.2, 0.1, 0.1, 0.1
+  ]
+  columnsWidths [
+    0.4, 0.17, 0.18
+  ]
+  primaryAppearance PaintedWood {
+    colorOverride 0.3 0.3 1
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.2 0.2 0.4
+  }
+}
+Tiago++ {
+  translation 0.166049 0.078178 3.49217
+  rotation 0.9999789271144786 0.006444811178591583 -0.0007808558437331444 -1.5779467345460072
+  cameraSlot [
+    Camera {
+      rotation 0 1 0 -1.5707996938995747
+      name "kinect color"
+    }
+  ]
+  lidarSlot [
+    Display {
+      name "displayA"
+    }
+    HokuyoUrg04lxug01 {
+      name "Hokuyo UTM-30LX"
+      resolution 670
+    }
+  ]
+}
+Window {
+  translation -0.740001 -3.47267e-06 1.11
+  rotation -2.3464099999870814e-06 0.9999999999944944 2.3464099999870814e-06 1.5708
+  name "window(2)"
+  size 1.7 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation 2.0671 -3.47267e-06 -2.27956
+  rotation 0 1 0 3.141592653589793
+  name "window(4)"
+  size 2.6 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation 2.01002 -3.47267e-06 0.258018
+  rotation 0 1 0 3.141592653589793
+  name "window(8)"
+  size 2.6 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation 1.98288 -3.47267e-06 2.758
+  rotation 0 1 0 3.141592653589793
+  name "window(9)"
+  size 2.6 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation -2.04119 -3.47267e-06 5.24764
+  rotation 0 1 0 3.141592653589793
+  name "window(10)"
+  size 2.6 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation 2.05113 -3.47267e-06 4.15076
+  rotation 0 1 0 3.141592653589793
+  name "window(11)"
+  size 2.6 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation -1.97734 -3.47267e-06 -2.26556
+  rotation 0 1 0 3.141592653589793
+  name "window(7)"
+  size 2.6 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation -0.754506 -3.47267e-06 -1.40526
+  rotation -2.3464099999870814e-06 0.9999999999944944 2.3464099999870814e-06 1.5708
+  name "window(6)"
+  size 1.7 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation 0.754207 -3.47267e-06 -0.618724
+  rotation -2.3464099999870814e-06 0.9999999999944944 2.3464099999870814e-06 1.5708
+  name "window(3)"
+  size 1.7 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation 0.757495 -3.47267e-06 1.08769
+  rotation -2.3464099999870814e-06 0.9999999999944944 2.3464099999870814e-06 1.5708
+  name "window(5)"
+  size 1.7 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Window {
+  translation -0.707337 -3.47267e-06 3.58072
+  rotation -2.3464099999870814e-06 0.9999999999944944 2.3464099999870814e-06 1.5708
+  name "window(1)"
+  size 1.7 2.45 0.01
+  windowThickness 0.01
+  bottomWallHeight 1
+  frameSize 0.01 0.01 0.01
+  windowSillSize 0 0
+}
+Table {
+  translation -2.92227 -8.88179e-15 2.26394
+  rotation 0 1 0 1.5707996938995747
+  name "table(4)"
+  size 1.1 0.74 0.6
+}
+Table {
+  translation 1.08007 -5.86198e-14 -0.681716
+  rotation 0 1 0 1.5707996938995747
+  name "table(11)"
+  size 1.1 0.74 0.6
+}
+Table {
+  translation -1.11066 -1.24345e-14 1.38367
+  rotation 0 1 0 1.5707996938995747
+  name "table(8)"
+  size 1.1 0.74 0.6
+}
+Table {
+  translation 2.92302 -2.66454e-14 -0.654517
+  rotation 0 1 0 1.5707996938995747
+  name "table(12)"
+  size 1.1 0.74 0.6
+}
+Table {
+  translation 2.90178 -8.88179e-15 3.43105
+  rotation 0 1 0 1.5707996938995747
+  name "table(7)"
+  size 1.1 0.74 0.6
+}
+Table {
+  translation -2.92714 -2.06057e-13 0.847508
+  rotation 0 1 0 1.5707996938995747
+  name "table(1)"
+  size 1.1 0.74 0.6
+}
+Table {
+  translation -1.07996 -1.59872e-14 -1.54686
+  rotation 0 1 0 1.5707996938995747
+  name "table(3)"
+  size 1.3 0.74 0.6
+}
+Table {
+  translation 2.29115 -7.10543e-15 1.57811
+  rotation 0 1 0 1.5707996938995747
+  name "table(16)"
+  size 1.3 0.74 0.6
+}
+Table {
+  translation -2.91879 -7.10543e-15 4.52925
+  rotation 0 1 0 1.5707996938995747
+  name "table(14)"
+  size 1.3 0.74 0.6
+}
+Table {
+  translation 2.96076 4.36984e-13 5.40733
+  rotation 0 1 0 1.5707996938995747
+  name "table(6)"
+  size 1.3 0.74 0.6
+}
+Table {
+  translation 2.34261 4.9738e-14 4.48636
+  name "table(2)"
+  size 1.8 0.74 0.6
+}
+Table {
+  translation 1.69885 2.91322e-13 0.625555
+  name "table(5)"
+  size 1.8 0.74 0.6
+}
+Table {
+  translation -1.69269 2.91322e-13 -1.88159
+  name "table(15)"
+  size 1.8 0.74 0.6
+}
+Table {
+  translation -2.31488 3.55271e-14 3.58071
+  name "table(13)"
+  size 1.8 0.74 0.6
+}
+Table {
+  translation -0.817314 -4.26326e-14 -5.50926
+  name "table(9)"
+  size 1.8 0.74 0.6
+}
+Table {
+  translation -0.825899 2.80664e-13 -3.96527
+  name "table(10)"
+  size 1.8 0.74 0.6
+}
+Chair {
+  translation -2.45624 -3.55271e-14 0.954284
+  rotation 0 1 0 -3.141592653589793
+}
+Chair {
+  translation 2.94039 -3.55271e-14 -4.02456
+  rotation 0 -1 0 3.141592653589793
+  name "chair(5)"
+}
+Chair {
+  translation 2.89786 -2.84217e-14 -2.63402
+  rotation 0 1 0 -3.141592653589793
+  name "chair(2)"
+}
+Chair {
+  translation 2.64869 -3.55271e-14 -0.632487
+  name "chair(6)"
+}
+Chair {
+  translation 2.66204 -3.55271e-14 1.60317
+  rotation 0 1 0 -3.141592653589793
+  name "chair(7)"
+}
+Chair {
+  translation 1.45432 -3.55271e-14 -0.703397
+  rotation 0 1 0 -3.141592653589793
+  name "chair(9)"
+}
+Chair {
+  translation -2.48933 -2.84217e-14 2.2232
+  rotation 0 1 0 -3.141592653589793
+  name "chair(3)"
+}
+Chair {
+  translation 2.93733 -2.84217e-14 -3.3181
+  rotation 0 1 0 -3.141592653589793
+  name "chair(4)"
+}
+Chair {
+  translation -1.96665 -1.77636e-14 4.07803
+  rotation 0 1 0 1.570795613280012
+  name "chair(1)"
+}
+Chair {
+  translation -1.95195 -1.77636e-14 -1.54854
+  rotation 0 1 0 1.570795613280012
+  name "chair(10)"
+}
+Chair {
+  translation 1.42142 -1.77636e-14 1.15818
+  rotation 0 1 0 1.570795613280012
+  name "chair(8)"
+}
+OfficeChair {
+  translation 2.06942 -3.55271e-15 5.07261
+  rotation 0 -1 0 3.14159
+}
+Monitor {
+  translation -2.98584 0.75 0.844973
+  rotation 0 1 0 -1.5707996938995747
+}
+Monitor {
+  translation -3.04281 0.75 2.19594
+  rotation 0 1 0 -1.5707996938995747
+  name "monitor(1)"
+}
+Monitor {
+  translation -1.92404 0.75 3.41671
+  rotation 0 1 0 -3.141592653589793
+  name "monitor(2)"
+}
+Monitor {
+  translation 1.50752 0.75 0.507055
+  rotation 0 1 0 -3.141592653589793
+  name "monitor(4)"
+}
+Monitor {
+  translation -1.84489 0.75 -2.01953
+  rotation 0 1 0 -3.141592653589793
+  name "monitor(5)"
+}
+Monitor {
+  translation 2.12095 0.75 4.34762
+  rotation 0 1 0 -3.141592653589793
+  name "monitor(3)"
+}
+DesktopComputer {
+  translation -3.03352 0.75 2.66323
+  rotation 0 1 0 -1.5708003061004252
+}
+Laptop {
+  translation -2.93304 0.75 4.43018
+  rotation 0 1 0 -1.5707996938995747
+}
+Laptop {
+  translation 2.30077 0.75 1.58581
+  rotation 0 1 0 -1.5707996938995747
+  name "laptop(6)"
+}
+Laptop {
+  translation 1.03394 0.75 -0.713115
+  rotation 0 -1 0 1.5708
+  name "laptop(5)"
+}
+Laptop {
+  translation 2.92577 0.75 5.31705
+  rotation 0 1 0 1.570795613280012
+  name "laptop(1)"
+}
+Laptop {
+  translation 2.9971 0.75 3.4359
+  rotation 0 1 0 1.570795613280012
+  name "laptop(2)"
+}
+Laptop {
+  translation 3.02739 0.75 -0.66008
+  rotation 0 1 0 1.570795613280012
+  name "laptop(4)"
+}
+Laptop {
+  translation -0.996576 0.75 1.40893
+  rotation 0 1 0 1.570795613280012
+  name "laptop(3)"
+}
+DesktopComputer {
+  translation -3.02406 0.75 1.2712
+  rotation 0 1 0 -1.5708003061004252
+  name "desktop computer(1)"
+}
+DesktopComputer {
+  translation 1.65756 0.75 4.45724
+  rotation 0 1 0 -3.141592653589793
+  name "desktop computer(2)"
+}
+DesktopComputer {
+  translation -2.32687 0.75 -1.86478
+  rotation 0 1 0 -3.141592653589793
+  name "desktop computer(3)"
+}
+DesktopComputer {
+  translation 0.996037 0.75 0.631283
+  rotation 0 1 0 -3.141592653589793
+  name "desktop computer(5)"
+}
+DesktopComputer {
+  translation -2.43536 0.75 3.46957
+  rotation 0 1 0 -3.141592653589793
+  name "desktop computer(4)"
+}
+Keyboard {
+  translation -2.77468 0.75 0.917444
+  rotation 0 1 0 -1.5707996938995747
+}
+Keyboard {
+  translation -2.84229 0.75 2.22567
+  rotation 0 1 0 -1.5707996938995747
+  name "keyboard(2)"
+}
+Keyboard {
+  translation 2.0939 0.75 4.5713
+  name "keyboard(1)"
+}
+Keyboard {
+  translation 1.45134 0.75 0.762405
+  name "keyboard(3)"
+}
+Keyboard {
+  translation -1.91538 0.75 -1.69509
+  name "keyboard(5)"
+}
+Keyboard {
+  translation -1.92989 0.75 3.70279
+  name "keyboard(4)"
+}
+Television {
+  translation -1.91467 1.5 0.329098
+}
+Cabinet {
+  translation 1.98063 1.06581e-14 7.16419
+  rotation 0 1 0 3.141592653589793
+  name "cabinet(1)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Cabinet {
+  translation -3.22122 -5.68435e-14 -3.55156
+  rotation 0 1 0 1.5707896938995747
+  name "cabinet(3)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Cabinet {
+  translation -3.22332 -5.68435e-14 -5.94474
+  rotation 0 1 0 1.5707896938995747
+  name "cabinet(8)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Cabinet {
+  translation -3.21193 -5.68435e-14 -6.75475
+  rotation 0 1 0 1.5707896938995747
+  name "cabinet(9)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Cabinet {
+  translation -3.21819 -5.68435e-14 -2.7411
+  rotation 0 1 0 1.5707896938995747
+  name "cabinet(7)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Cabinet {
+  translation 3.21704 -5.68435e-14 -5.91436
+  rotation 0 1 0 -1.5708053071795867
+  name "cabinet(4)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Cabinet {
+  translation 3.22092 -5.68435e-14 -5.11733
+  rotation 0 1 0 -1.5708053071795867
+  name "cabinet(6)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Cabinet {
+  translation 3.21242 -5.68435e-14 -6.71635
+  rotation 0 1 0 -1.5708053071795867
+  name "cabinet(5)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Cabinet {
+  translation 2.79643 3.55272e-15 7.16823
+  rotation 0 1 0 3.141592653589793
+  name "cabinet(2)"
+  primaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+  secondaryAppearance PaintedWood {
+    colorOverride 0.4 0.2 0
+  }
+}
+Clock {
+  translation -3.18288 1.8 2.01781
+  rotation 0 1 0 1.5708003061004252
+}
+Clock {
+  translation -3.16512 1.8 2.6141
+  rotation 0 1 0 1.5708003061004252
+  name "clock(1)"
+}
+Clock {
+  translation -3.18572 1.8 3.33382
+  rotation 0 1 0 1.5708003061004252
+  name "clock(2)"
+}
+DoubleFluorescentLamp {
+  translation -1.79 2.44089 -5.68024
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(3)"
+}
+DoubleFluorescentLamp {
+  translation -1.79 2.44478 -3.46024
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(10)"
+}
+DoubleFluorescentLamp {
+  translation -1.79 2.45514 2.88976
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(12)"
+}
+DoubleFluorescentLamp {
+  translation -1.79 2.44908 -0.80024
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(1)"
+}
+DoubleFluorescentLamp {
+  translation 2.11 2.44089 -5.68024
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(5)"
+}
+DoubleFluorescentLamp {
+  translation 2.11 2.4447 -3.45024
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(6)"
+}
+DoubleFluorescentLamp {
+  translation 2.11 2.4488 -0.99024
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(7)"
+}
+DoubleFluorescentLamp {
+  translation 2.11 2.45267 1.36976
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(8)"
+}
+DoubleFluorescentLamp {
+  translation 2.11 2.45597 3.40976
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(9)"
+}
+DoubleFluorescentLamp {
+  translation 2.11 2.4598 5.74976
+  rotation 1 0 0 3.14
+  name "double fuorescent lamp(2)"
+}

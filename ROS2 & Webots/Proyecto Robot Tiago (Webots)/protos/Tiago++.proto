@@ -1,0 +1,91 @@
+#VRML_SIM R2021a utf8
+# license: Apache License 2.0.
+# license url: http://www.apache.org/licenses/LICENSE-2.0.
+# documentation url: https://www.cyberbotics.com/doc/guide/tiago++
+# TIAGo++ robot from PAL Robotics.
+# The robot is composed by the TIAGo base and a body with two arms equipped with parallel grippers.
+
+PROTO Tiago++ [
+  field  SFVec3f     translation           0 0.095 0
+  field  SFRotation  rotation              1 0 0 -1.5708
+  field  SFString    name                  "TIAGo++"
+  field  SFString    controller            "<extern>"
+  field  MFString    controllerArgs        []
+  field  SFString    customData            ""
+  field  SFBool      supervisor            FALSE
+  field  SFBool      synchronization       TRUE
+  field  SFBool      selfCollision         FALSE                          # Enables/disables the detection of collisions within the robot.
+  field  MFNode      endEffectorRightSlot  TiagoGripper { name "right" }  # Extends the robot with a right end-effector (such as the TiagoRightHey5 for example).
+  field  MFNode      endEffectorLeftSlot   TiagoGripper { name "left" }   # Extends the robot with a left end-effector (such as the TiagoLeftHey5 for example).
+  field MFNode       extensionSlot   [ 
+      RobotisLds01 { } 
+      InertialUnit {
+         rotation 0 0 0 0
+         name "inertial_unit"
+      }
+      
+  ]  # Extends the robot with new nodes in the extension slot.
+]
+{
+  TiagoBase {
+    translation IS translation
+    rotation IS rotation
+    controller IS controller
+    controllerArgs IS controllerArgs
+    customData IS customData
+    supervisor IS supervisor
+    synchronization IS synchronization
+    selfCollision IS selfCollision
+    name IS name
+    model "PAL Robotics - TIAGo++"
+    bodySlot [
+      TiagoBody {
+        cameraSlot [
+           Kinect {
+           		name "kinect color"
+           		name "kinect range"
+      			rotation 0 1 0 -1.5708
+    	   }
+  	]
+        rightArmSlot [
+          TiagoRightArm {
+            endEffectorSlot IS endEffectorRightSlot
+          }
+        ]
+        leftArmSlot [
+          TiagoLeftArm {
+            endEffectorSlot IS endEffectorLeftSlot
+          }
+   	]
+   	
+      }
+   ]
+   lidarSlot [
+      HokuyoUrg04lxug01 {
+      }
+      
+      Solid {
+            translation 0 0.078 0.032
+            rotation    0 0 1 -1.5708
+            rotation    1 0 0 -1.5708
+            name "imu_link"
+            children [
+               Solid {
+               }
+            ]
+       }
+      
+       Accelerometer {
+           translation 0 0.078 0.032
+       }
+       Gyro {
+         translation 0 0.078 0.032
+       }
+       Compass {
+         translation -0.032 0 0.078
+       }	
+    ]
+  }
+}
+
+
